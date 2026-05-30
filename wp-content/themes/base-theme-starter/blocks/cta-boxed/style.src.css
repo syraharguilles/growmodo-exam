@@ -1,0 +1,5 @@
+@layer components {
+  .bts-block-cta-boxed {
+    @apply my-8;
+  }
+}

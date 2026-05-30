@@ -1,0 +1,38 @@
+{
+  "key": "group_faq_boxes_block",
+  "title": "FAQ Boxes Fields",
+  "fields": [
+    {
+      "key": "field_faq_boxes_title",
+      "label": "Title",
+      "name": "title",
+      "type": "text"
+    },
+    {
+      "key": "field_faq_boxes_content",
+      "label": "Content",
+      "name": "content",
+      "type": "textarea",
+      "rows": 4
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "block",
+        "operator": "==",
+        "value": "acf/faq-boxes"
+      }
+    ]
+  ],
+  "menu_order": 0,
+  "position": "normal",
+  "style": "default",
+  "label_placement": "top",
+  "instruction_placement": "label",
+  "hide_on_screen": "",
+  "active": true,
+  "description": "",
+  "show_in_rest": 0,
+  "modified": 1780121569
+}

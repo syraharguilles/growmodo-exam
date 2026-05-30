@@ -1,0 +1,33 @@
+{
+  "name": "acf/featured-properties",
+  "title": "Featured Properties",
+  "description": "ACF-powered Featured Properties block.",
+  "category": "layout",
+  "icon": "layout",
+  "keywords": [
+    "featured-properties",
+    "acf",
+    "starter"
+  ],
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "jsx": true
+  },
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": "wide"
+    }
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "templates/render.php"
+  },
+  "style": "file:./style.css",
+  "editorStyle": "file:./style.css",
+  "viewScript": "file:./script.js"
+}

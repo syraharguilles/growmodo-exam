@@ -1,0 +1,72 @@
+@layer components {
+  .bts-block-hero-banner {
+    @apply relative my-[-2.5rem] overflow-hidden bg-[#141414] text-white;
+    max-height: 814px;
+}
+
+  .bts-block-hero-banner__layout {
+    @apply grid items-stretch lg:grid-cols-[minmax(0,0.98fr)_minmax(0,1.02fr)];
+    height: 814px;
+  }
+
+  .bts-block-hero-banner__content-inner {
+    @apply flex h-full max-w-[44rem] flex-col justify-center;
+  }
+
+  .bts-block-hero-banner__title {
+    @apply text-4xl font-semibold leading-tight text-white md:text-5xl xl:text-6xl;
+  }
+
+  .bts-block-hero-banner__text {
+    @apply mt-6 max-w-[42rem] text-lg leading-8 text-[#999999];
+  }
+
+  .bts-block-hero-banner__actions {
+    @apply mt-10 flex flex-wrap gap-4;
+  }
+
+  .bts-block-hero-banner__button {
+    @apply min-w-[10rem];
+  }
+
+  .bts-block-hero-banner__metrics {
+    @apply mt-12 grid gap-4 md:grid-cols-3;
+  }
+
+  .image-tag-center {
+    @apply absolute top-[30%] left-1/2 z-[2] -translate-x-1/2 -translate-y-1/2;
+  }
+
+  .bts-block-hero-banner__content-image {
+    @apply block h-auto max-w-[10rem] md:max-w-[12rem] lg:max-w-[14rem];
+  }
+
+  .bts-block-hero-banner__metric {
+    @apply rounded-[14px] border border-[#262626] bg-[#1A1A1A] p-6;
+  }
+
+  .bts-block-hero-banner__metric-value {
+    @apply text-4xl font-semibold text-white;
+  }
+
+  .bts-block-hero-banner__metric-label {
+    @apply mt-3 text-base text-[#999999];
+  }
+
+  .bts-block-hero-banner__media {
+    @apply absolute top-0 right-0 w-1/2 h-full bg-[#1A1A1A];   
+  }
+
+  .bts-block-hero-banner__media::before {
+    content: '';
+    @apply absolute inset-0 bg-[url('../../assets/images/abstract-design-left-right.png')] bg-cover bg-center opacity-30;
+  }
+
+  .bts-block-hero-banner__image {
+    @apply relative z-[1] h-full w-full object-cover object-center;
+  }
+
+  .bts-block-hero-banner__media-placeholder {
+    @apply relative z-[1] flex h-full min-h-[24rem] items-center justify-center px-6 text-center text-base text-[#999999] lg:min-h-[46rem];
+  }
+}

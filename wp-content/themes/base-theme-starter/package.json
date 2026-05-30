@@ -1,0 +1,17 @@
+{
+  "name": "base-theme-starter-theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Classic PHP WordPress theme powered by Tailwind CSS",
+  "scripts": {
+    "make:block": "node ./scripts/make-block.cjs",
+    "build:blocks": "node ./scripts/build-blocks.cjs",
+    "build:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}

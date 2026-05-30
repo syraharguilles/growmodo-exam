@@ -1,0 +1,21 @@
+{
+  "name": "acf/shared-button-reference",
+  "title": "Shared Button Reference",
+  "description": "Hidden reference block for reusable shared button ACF fields.",
+  "category": "widgets",
+  "icon": "button",
+  "keywords": [
+    "shared",
+    "button",
+    "reference"
+  ],
+  "supports": {
+    "inserter": false,
+    "multiple": false,
+    "jsx": true
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "templates/render.php"
+  }
+}

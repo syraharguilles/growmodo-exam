@@ -1,0 +1,5 @@
+@layer components {
+  .bts-block-faq-boxes {
+    @apply my-8;
+  }
+}
