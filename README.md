@@ -57,8 +57,6 @@ You do not need to download WordPress core just to get `wp-content/`.
 
 If you specifically want the default WordPress themes, plugins, or starter files inside `wp-content/`, download the latest WordPress package from `wordpress.org`, then copy only the `wp-content/` folder contents you want into your local project.
 
-##TEST4
-
 Your custom theme files should live in `wp-content/themes/base-theme-starter/`.
 
 You do not need to manually add WordPress core files. Docker will provide those inside the container.
