@@ -41,6 +41,8 @@ The `wp-content` folder is important because it is bind-mounted into the WordPre
 
 ### 1. Create the local WordPress content folders
 
+##TEST3
+
 If they do not exist yet, create these folders next to `compose.yml`:
 
 ```text
