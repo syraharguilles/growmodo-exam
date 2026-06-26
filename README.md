@@ -2,6 +2,8 @@
 
 This workspace contains a minimal WordPress stack with MariaDB, managed by Docker Compose.
 
+##TEST1
+
 ## Demo URL
 
 This project is not hosted publicly.
