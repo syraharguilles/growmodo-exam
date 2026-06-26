@@ -32,6 +32,8 @@ The `wp-content` folder is important because it is bind-mounted into the WordPre
 
 ## Local development setup
 
+##TEST2
+
 ### Prerequisites
 
 - Docker Desktop installed and running
